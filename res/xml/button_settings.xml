@@ -38,6 +38,11 @@
             android:targetClass="com.cyanogenmod.settings.device.BluetoothInputSettings" />
     </Preference>
 
+    <PreferenceScreen
+        android:key="pa_pie_control"
+        android:title="@string/pa_pie_title"
+        android:fragment="com.android.settings.mahdi.pa.Pie" />
+
     <PreferenceCategory
         android:key="power_key"
         android:title="@string/hardware_keys_power_key_title" >

@@ -64,7 +64,7 @@ public class Utilities {
     }
 
     public static String getModVersion() {
-        return SystemProperties.get("ro.cm.version");
+        return SystemProperties.get("ro.static.version");
     }
 
     public static String digest(String input) {
